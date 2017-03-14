@@ -1,0 +1,28 @@
+service: default
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+env_variables:
+  env: 'dev'
+
+handlers:
+- url: /.*
+  script: server.main.server
+
+libraries:
+- name: ssl
+  version: latest
+
+skip_files:
+- ^(.*/)?.*\.py[co]$
+- .idea/
+- .git/
+- .gitignore
+- requirements.txt
+- README.md
+- bin/
+- tasks/
+- node_modules/
+- test/
+- Grunfile.js

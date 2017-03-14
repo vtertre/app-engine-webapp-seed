@@ -1,0 +1,9 @@
+dispatch:
+- url: "*/favicon.ico"
+  module: default
+
+- url: "*/api/*"
+  module: api
+
+- url: "*/.*"
+  module: default

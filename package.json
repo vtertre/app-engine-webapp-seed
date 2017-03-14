@@ -1,0 +1,65 @@
+{
+  "name": "app-engine-webapp-seed",
+  "version": "0.0.1",
+  "description": "TODO",
+  "scripts": {
+    "test": "grunt test",
+    "preversion": "npm test && bash bin/pre-release.sh",
+    "version": "git add -u",
+    "postversion": "bash bin/post-release.sh",
+    "stage": "bash bin/stage.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "author": "TODO",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.10.x"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "babel-runtime": "^6.20.0",
+    "bluebird": "^3.4.7",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-config-vter": "0.0.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "glob": "^7.1.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "matchdep": "^1.0.1",
+    "mocha": "^3.2.0",
+    "ng-annotate-webpack-plugin": "^0.1.3",
+    "proxyquire": "^1.7.11",
+    "sinon": "^1.17.7",
+    "sinon-as-promised": "^4.0.2",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-material": "^1.1.1",
+    "angular-ui-router": "^0.3.2",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "material-design-icons": "^3.0.1"
+  }
+}

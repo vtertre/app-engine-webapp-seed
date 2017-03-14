@@ -1,0 +1,4 @@
+Flask==0.12
+pyjade==4.0.0
+-e git+https://github.com/ze-phyr-us/linkenv.git@f12bd52d9ec592ea2d1a92cd16ce4f237237a473#egg=linkenv-master
+
